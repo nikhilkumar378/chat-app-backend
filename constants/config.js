@@ -1,7 +1,8 @@
 const corsOption = {
   
     origin: [
-     "https://chat-app-backend-7.onrender.com",
+    "http://localhost:5173", 
+      "http://localhost:4173",
      
       process.env.CLIENT_URL
     ],
